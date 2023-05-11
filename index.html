@@ -36,14 +36,14 @@
     </div> -->
 
     <!-- Hero Section -->
-    <div class="flex flex-col pt-20 mx-6 h-[100vh] overflow-x-hidden">
+    <div class="flex flex-col pt-20 md:pt-28 mx-6 md:mx-24 h-[100vh] overflow-x-hidden">
         <div class="mt-20">
-            <h1 class="text-main-blue text-4xl font-semibold mr-10">Discover a smarter way to invest and grow your wealth </h1>
-            <h2 class="text-main-blue text-lg font-semibold mt-2 ml-2">with FundFlow</h2>
-            <button class="bg-main-blue py-3 px-4 text-white font-bold rounded-xl mt-4 drop-shadow-lg">Learn more</button>
-            <img class="float-right w-[72vw] -mt-24 ml-10 -mr-16" src="./img/hero.png">
+            <h1 class="text-main-blue text-4xl md:text-5xl font-semibold mr-10">Discover a smarter way to invest and grow your wealth </h1>
+            <h2 class="text-main-blue text-lg md:text-xl font-semibold mt-2 ml-2">with FundFlow</h2>
+            <button class="bg-main-blue py-3 px-4 md:text-2xl text-white font-bold rounded-xl mt-4 drop-shadow-lg hover:scale-110 transition-all active:scale-90">Learn more</button>
+            <img class="float-right w-[72vw] md:w-[90vw] -mt-24 md:-mt-36 ml-10 -mr-16 md:-mr-28" src="./img/hero.png">
         </div>
-        <div class="flex flex-col text-center px-auto text-white bg-main-blue py-2 rounded-xl font-semibold text-lg h-auto mt-[10vh]">
+        <div class="flex flex-col text-center px-auto text-white bg-main-blue py-2 rounded-xl font-semibold text-lg md:text-xl h-auto mt-[10vh] md:mt-auto md:mb-[20vh]">
             <p>Investing was never easier</p>
             <p>Start today!</p>
         </div>
@@ -51,80 +51,87 @@
 
     <div class="flex flex-col">
         <div class="mx-auto text-center text-gray-900">
-            <h2 class="text-3xl font-semibold">Why FundFlow?</h2>
-            <p>Learn all about the adventages!</p>
+            <h2 class="text-3xl font-semibold md:text-5xl">Why FundFlow?</h2>
+            <p class="md:text-xl">Learn all about the adventages!</p>
         </div>
-        <div class="mx-4 mt-12">
-            <div class="bg-orange text-white px-4 py-6 rounded-xl block drop-shadow-2xl">
-                <h2 class="text-2xl font-semibold mr-16">Start investing with only CHF 1</h2>
-                <div class="flex mt-1">
-                    <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias vero ratione libero eius reiciendis ullam recusandae! Vel illo itaque dolorem!</p>
-                    <img class="float-right w-32 h-32 mt-4" src="./img/coins.png">
+        <div class="mx-4 md:mx-10 mt-12">
+            <div class="bg-orange text-white px-4 py-6 md:px-6 rounded-xl flex flex-col drop-shadow-2xl">
+                <div class="flex flex-col mt-auto">
+                    <h2 class="text-2xl font-semibold mr-16">Start investing with only CHF 1</h2>
+                    <div class="flex flex-row mt-1">
+                        <p class="md:w-[60%]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias vero ratione libero eius reiciendis ullam recusandae! Vel illo itaque dolorem!<br><button class="mt-4 cursor-pointer font-semibold text-left">Invest now ➝</button></p>
+                        <img class="w-32 h-32 md:w-40 md:h-40 md:ml-auto md:mr-14 mt-4 md:mt-0" src="./img/coins.png">
+                    </div>
                 </div>
-                <button class="mt-4 cursor-pointer font-semibold">Invest now ➝</button>
             </div>
         </div>
 
-        <div class="mx-4 mt-12 flex">
-            <div class="bg-teritaer text-white px-4 py-6 rounded-xl block drop-shadow-2xl">
-                <h2 class="text-2xl font-semibold mr-32">All your savings in one place</h2>
-                <p class="">ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, esse voluptatum veniam necessitatibus provident tenetur quod magnam et natus nulla molestias illo dolores culpa sapiente aliquid qui repudiandae iste.</p>
-                <p><span class="float-right w-48 h-48 flex flex-col"><img src="./img/app.png"></span>Delectus debitis eaque dolores praesentium. <button class="mt-4 cursor-pointer font-semibold">Get started ➝</button></p>
+        <div class="md:grid md:grid-cols-2 md:mx-10 md:gap-4">
+            <div class="mx-4 md:mx-0 mt-12 flex">
+                <div class="bg-teritaer text-white px-4 py-6 rounded-xl block drop-shadow-2xl">
+                    <h2 class="text-2xl font-semibold mr-32">All your savings in one place</h2>
+                    <p class="">ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, esse voluptatum veniam necessitatibus provident tenetur quod magnam et natus nulla molestias illo dolores culpa sapiente aliquid qui repudiandae iste.</p>
+                    <p><span class="float-right w-48 h-48 flex flex-col"><img src="./img/app.png"></span>Delectus debitis eaque dolores praesentium. <button class="mt-4 cursor-pointer font-semibold">Get started ➝</button></p>
+                </div>
             </div>
-        </div>
 
-        <div class="mx-4 mt-12">
-            <div class="bg-fuenf text-white px-3 py-6 rounded-xl drop-shadow-xl">
-                <h2 class="text-2xl font-semibold mr-16">No hidden fees</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem doloribus corporis consectetur velit dicta! Vitae!</p>
-                <button class="mt-4 cursor-pointer font-semibold">See all our fees ➝</button>
-                <img class="mx-auto w-36 h-36 mt-8" src="./img/coins2.png">
+            <div class="mx-4 md:mx-0 mt-12">
+                <div class="bg-fuenf text-white px-3 py-6 rounded-xl drop-shadow-xl md:h-[100%]">
+                    <h2 class="text-2xl font-semibold mr-16">No hidden fees</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem doloribus corporis consectetur velit dicta! Vitae!</p>
+                    <button class="mt-4 cursor-pointer font-semibold">See all our fees ➝</button>
+                    <img class="mx-auto w-36 h-36 mt-8 md:mt-20" src="./img/coins2.png">
+                </div>
             </div>
         </div>
         
-        <div class="mx-4 mt-12">
-            <div class="bg-white text-gray-900 px-3 py-6 pb-8 rounded-xl drop-shadow-xl">
+        <div class="mx-4 md:mx-10 mt-12">
+            <div class="bg-white text-gray-900 px-3 md:px-6 py-6 pb-8 rounded-xl drop-shadow-xl">
                 <h2 class="text-2xl font-semibold mr-16">Earn up to 4.5% annual interest</h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis possimus consequatur vel error et fugit.</p>
                 <button class="mt-4 cursor-pointer font-semibold active:bg-main-blue">Explore interest rate ➝</button>
-                <img class="mt-16 w-full h-auto" src="./img/vault.svg" alt="">
+                <img class="mt-16 w-full md:mx-auto md:w-[70%] h-auto" src="./img/vault.svg" alt="">
             </div>
         </div>
     </div>
 
     <div class="flex flex-col mt-24">
         <div class="mx-auto text-center text-gray-800">
-            <h2 class="text-3xl font-semibold">Everything is mobile!</h2>
-            <p>Control your money from everywhere at anytime</p>
+            <h2 class="text-3xl font-semibold md:text-5xl">Everything is mobile!</h2>
+            <p class="md:text-xl">Control your money from everywhere at anytime</p>
         </div>
 
-        <div class="mx-4 mt-12">
-            <div class="bg-fuenf text-white px-3 py-6 pb-8 rounded-xl drop-shadow-xl">
-                <h2 class="text-2xl font-semibold mr-16">Get notified with all important informations</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis possimus consequatur vel error et fugit.</p>
-                <button class="mt-4 cursor-pointer font-semibold active:bg-main-blue">Download the app ➝</button>
-                <img class="mt-16 mx-auto w-[80vw]" src="./img/phone.svg" alt="">
+        <div class="mx-4 mt-12 md:mx-10">
+            <div class="bg-fuenf text-white px-3 py-6 pb-8 rounded-xl drop-shadow-xl flex flex-col md:flex-row">
+                <div>
+                    <h2 class="text-2xl font-semibold mr-16">Get notified with all important informations</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis possimus consequatur vel error et fugit.</p>
+                    <button class="mt-4 cursor-pointer font-semibold active:bg-main-blue text-left">Download the app ➝</button>
+                </div>
+                <img class="mt-16 md:mt-0 mx-auto w-[80vw] md:w-[40vw]" src="./img/phone.svg" alt="">
             </div>
         </div>
 
-        <div class="mx-4 mt-12">
-            <div class="bg-orange text-white px-3 py-6 pb-8 rounded-xl drop-shadow-xl">
-                <h2 class="text-2xl font-semibold mr-16">Transfer money with your friends</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis possimus consequatur vel error et fugit.</p>
-                <button class="mt-4 cursor-pointer font-semibold active:bg-main-blue">Explore more ➝ <span class="float-right pl-8 w-[55vw] flex flex-col"><img src="./img/money-transfer.svg"></span></button>
+        <div class="md:grid md:grid-cols-2 md:mx-10 md:gap-4">
+            <div class="mx-4 md:mx-0 mt-12">
+                <div class="bg-orange text-white px-3 py-6 pb-8 rounded-xl drop-shadow-xl md:h-[100%]">
+                    <h2 class="text-2xl font-semibold mr-16">Transfer money with your friends</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis possimus consequatur vel error et fugit.</p>
+                    <button class="mt-4 cursor-pointer font-semibold active:bg-main-blue text-left">Explore more ➝ <span class="float-right pl-8 w-[55vw] md:w-[30vw] flex flex-col md:mt-20"><img src="./img/money-transfer.svg"></span></button>
+                </div>
+            </div>
+
+            <div class="mx-4 md:mx-0 mt-12">
+                <div class="bg-teritaer text-white px-3 py-6 pb-8 rounded-xl drop-shadow-xl">
+                    <h2 class="text-2xl font-semibold mr-12">Mobile payment with Apple Pay & Samsung Pay</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis possimus consequatur vel error et fugit.</p>
+                    <button class="mt-4 cursor-pointer font-semibold active:bg-main-blue">Explore more ➝</button>
+                    <img class="mt-12 mx-auto w-[60vw]" src="./img/payment.svg">
+                </div>
             </div>
         </div>
 
-        <div class="mx-4 mt-12">
-            <div class="bg-teritaer text-white px-3 py-6 pb-8 rounded-xl drop-shadow-xl">
-                <h2 class="text-2xl font-semibold mr-12">Mobile payment with Apple Pay & Samsung Pay</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis possimus consequatur vel error et fugit.</p>
-                <button class="mt-4 cursor-pointer font-semibold active:bg-main-blue">Explore more ➝</button>
-                <img class="mt-12 mx-auto w-[60vw]" src="./img/payment.svg">
-            </div>
-        </div>
-
-        <div class="mx-auto px-10 mt-28 mb-20 text-center">
+        <div class="mx-auto px-10 md:px-48 mt-28 mb-20 text-center">
             <h2 class="text-gray-900 text-3xl font-semibold">Join now 50+ million users and invest your money smart </h2>
             <button class="mt-6 py-4 px-6 bg-main-blue text-xl font-semibold text-white rounded-2xl drop-shadow-xl">Invest now!</button>
         </div>
