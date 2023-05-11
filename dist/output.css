@@ -634,6 +634,26 @@ video {
   margin-left: 2rem;
 }
 
+.mr-1 {
+  margin-right: 0.25rem;
+}
+
+.mr-14 {
+  margin-right: 3.5rem;
+}
+
+.mr-12 {
+  margin-right: 3rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
 .block {
   display: block;
 }
@@ -750,6 +770,10 @@ video {
   width: 55vw;
 }
 
+.w-10 {
+  width: 2.5rem;
+}
+
 .grow {
   flex-grow: 1;
 }
@@ -762,6 +786,17 @@ video {
 
 .animate-pulse {
   animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes ping {
+  75%, 100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.animate-ping {
+  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
 }
 
 .cursor-pointer {
@@ -800,6 +835,14 @@ video {
 
 .rounded-xl {
   border-radius: 0.75rem;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
+.rounded-3xl {
+  border-radius: 1.5rem;
 }
 
 .bg-background {
