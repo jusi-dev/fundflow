@@ -1884,6 +1884,10 @@ video {
     margin-right: 10vw;
   }
 
+  .xl\:h-\[100\%\] {
+    height: 100%;
+  }
+
   .xl\:w-\[45vw\] {
     width: 45vw;
   }
@@ -1963,6 +1967,22 @@ video {
 
   .\32xl\:mt-\[10\%\] {
     margin-top: 10%;
+  }
+
+  .\32xl\:h-\[100\%\] {
+    height: 100%;
+  }
+
+  .\32xl\:w-\[20vw\] {
+    width: 20vw;
+  }
+
+  .\32xl\:w-\[\] {
+    width: ;
+  }
+
+  .\32xl\:w-\[100\%\] {
+    width: 100%;
   }
 
   .\32xl\:bg-zinc-800 {
