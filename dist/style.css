@@ -29,3 +29,7 @@
 body {
     font-family: 'Fira Sana'
 }
+
+#nav-links {
+  opacity: 0;
+}

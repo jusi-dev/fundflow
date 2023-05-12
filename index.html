@@ -11,29 +11,36 @@
 <body class="bg-background font-FiraSans">
     <nav class="flex flex-row w-full  h-auto p-4 fixed z-50 transition duration-500 ease-in-out bg-main-blue md:px-10 lg:px-[15vw] 2xl:px-[25vw]" id="nav">
         <div class="">
-            <div><a href="#hero"><h1 class="text-2xl font-semibold text-white text-center cursor-pointer">FundFlow</a></div>
+            <div><a href="#hero"><h1 class="text-3xl font-semibold text-white text-center cursor-pointer my-auto">FundFlow</a></div>
         </div>
         <div class="space-y-2 block ml-auto my-auto z-50 lg:hidden" id="burger-menu">
             <span class="block w-10 h-1 bg-gray-100 animate-pulse bar rounded-3xl"></span>
             <span class="block w-10 h-1 bg-gray-100 animate-pulse bar rounded-3xl"></span>
             <span class="block w-10 h-1 bg-gray-100 animate-pulse bar rounded-3xl"></span>
         </div>
-        <ul class="hidden lg:flex text-2xl  gap-8 ml-auto mr-10 text-white my-auto">
-            <li><a href="#about" class="hover:text-green-900">What we do</a></li>
-            <li><a href="#articles" class="hover:text-green-900">Articles</a></li>
-            <li><a href="#newsletter" class="hover:text-green-900">Newsletter</a></li>
+        <ul class="hidden lg:flex text-lg  gap-8 ml-20 mr-10 text-white my-auto">
+            <li><a href="#about" class="hover:text-orange">Invest</a></li>
+            <li><a href="#articles" class="hover:text-orange">Mobile App</a></li>
+            <li><a href="#newsletter" class="hover:text-orange">Join now</a></li>
+        </ul>
+        <ul class="hidden lg:flex text-lg  gap-4 ml-auto mr-10 text-white my-auto">
+            <li class=""><button class="bg-teritaer text-white py-1 px-3 rounded-xl cursor-pointer hover:scale-110 transition-all active:scale-90">Log In</button></li>
+            <li class=""><button class="bg-white text-teritaer py-1 px-3 rounded-xl cursor-pointer hover:scale-110 transition-all active:scale-90">Sign Up</button></li>
         </ul>
     </nav>
     <div>
     </div>
-    <!-- <div class="w-full h-full bg-gradient-to-b from-neutral-300 to-forest-green fixed transition-all text-center z-40 lg:hidden opacity-0" id="nav-links">
-        <ul class="md:flex-col md:items-center mt-[30vh] text-3xl text-zinc-700 gap-8 nav-items flex flex-col items-center">
-            <li><a href="#hero"><img class="h-16" src="./img/Logo1.png"></a></li>
-            <li><a href="#about" class="hover:text-green-900">What we do</a></li>
-            <li><a href="#articles" class="hover:text-green-900">Articles</a></li>
-            <li><a href="#newsletter" class="hover:text-green-900">Newsletter</a></li>
+    <div class="w-full h-[40vh] md:h-[20vh] bg-gradient-to-b from-main-blue to-fuenf fixed transition-all text-center z-40 lg:hidden opacity-0 flex flex-col gap-4 " id="nav-links">
+        <ul class="mt-[12vh] md:mt-[8vh] text-2xl text-white font-semibold flex flex-col md:flex-row md:mx-auto md:gap-10 gap-2 nav-items items-center">
+            <li><a href="#about" class="hover:text-orange">Invest</a></li>
+            <li><a href="#articles" class="hover:text-orange">Mobile App</a></li>
+            <li><a href="#newsletter" class="hover:text-orange">Join now</a></li>
         </ul>
-    </div> -->
+        <ul class="flex flex-row gap-2 text-xl nav-items items-center mx-auto my-auto">
+            <li class=""><button class="bg-teritaer text-white py-1 px-3 rounded-xl cursor-pointer hover:scale-110 transition-all active:scale-90">Log In</button></li>
+            <li class=""><button class="bg-white text-teritaer py-1 px-3 rounded-xl cursor-pointer hover:scale-110 transition-all active:scale-90">Sign Up</button></li>
+        </ul>
+    </div>
 
     <!-- Hero Section -->
     <div class="flex flex-col pt-20 md:pt-28 lg:pt-20 mx-6 md:mx-24 lg:mx-[15vw] 2xl:mx-[25vw] h-[100vh] lg:h-auto">
@@ -59,7 +66,7 @@
                 <div class="flex flex-col mt-auto">
                     <h2 class="text-2xl font-semibold mr-16">Start investing with only CHF 1</h2>
                     <div class="flex flex-row mt-1">
-                        <p class="md:w-[60%]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias vero ratione libero eius reiciendis ullam recusandae! Vel illo itaque dolorem!<br><button class="mt-4 cursor-pointer font-semibold text-left">Invest now ➝</button></p>
+                        <p class="md:w-[60%]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias vero ratione libero eius reiciendis ullam recusandae! Vel illo itaque dolorem!<br><button class="mt-4 cursor-pointer font-semibold text-left hover:bg-main-blue py-1.5 px-2 -mx-2 rounded-xl hover:scale-110 transition-all active:scale-90">Invest now ➝</button></p>
                         <img class="w-32 h-32 md:w-40 md:h-40 md:ml-auto md:mr-14 mt-4 md:mt-0" src="./img/coins.png">
                     </div>
                 </div>
@@ -71,7 +78,7 @@
                 <div class="bg-teritaer text-white px-4 py-6 lg:px-8 lg:py-10 lg:pb-2 rounded-xl block drop-shadow-2xl">
                     <h2 class="text-2xl font-semibold mr-32">All your savings in one place</h2>
                     <p class="">ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, esse voluptatum veniam necessitatibus provident tenetur quod magnam et natus nulla molestias illo dolores culpa sapiente aliquid qui repudiandae iste.</p>
-                    <p><span class="float-right w-48 h-48 lg:w-64 lg:h-64 lg:mt-8 lg:mr-6 flex flex-col"><img src="./img/app.png"></span>Delectus debitis eaque dolores praesentium. <br><button class="mt-4 cursor-pointer font-semibold">Get started ➝</button></p>
+                    <p><span class="float-right w-48 h-48 lg:w-64 lg:h-64 lg:mt-8 lg:mr-6 flex flex-col"><img src="./img/app.png"></span>Delectus debitis eaque dolores praesentium. <br><button class="mt-4 cursor-pointer font-semibold hover:bg-main-blue py-1.5 px-2 -mx-2 rounded-xl hover:scale-110 transition-all active:scale-90">Get started ➝</button></p>
                 </div>
             </div>
 
@@ -79,7 +86,7 @@
                 <div class="bg-fuenf text-white px-3 py-6 lg:px-8 lg:py-10 rounded-xl drop-shadow-xl md:h-[100%]">
                     <h2 class="text-2xl font-semibold mr-16">No hidden fees</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem doloribus corporis consectetur velit dicta! Vitae!</p>
-                    <button class="mt-4 cursor-pointer font-semibold">See all our fees ➝</button>
+                    <button class="mt-4 cursor-pointer font-semibold hover:bg-main-blue py-1.5 px-2 -mx-2 rounded-xl hover:scale-110 transition-all active:scale-90">See all our fees ➝</button>
                     <img class="mx-auto w-36 h-36 mt-8 md:mt-20" src="./img/coins2.png">
                 </div>
             </div>
@@ -89,7 +96,7 @@
             <div class="bg-white text-gray-900 px-3 md:px-6 py-6 lg:px-8 lg:py-10 pb-8 rounded-xl drop-shadow-xl">
                 <h2 class="text-2xl font-semibold mr-16">Earn up to 4.5% annual interest</h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis possimus consequatur vel error et fugit.</p>
-                <button class="mt-4 cursor-pointer font-semibold active:bg-main-blue">Explore interest rate ➝</button>
+                <button class="mt-4 cursor-pointer font-semibold hover:bg-main-blue py-1.5 px-2 -mx-2 rounded-xl hover:scale-110 transition-all active:scale-90 hover:text-white">Explore interest rate ➝</button>
                 <img class="mt-16 w-full md:mx-auto md:w-[70%] h-auto" src="./img/vault.svg" alt="">
             </div>
         </div>
@@ -106,7 +113,7 @@
                 <div>
                     <h2 class="text-2xl font-semibold mr-16">Get notified with all important informations</h2>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis possimus consequatur vel error et fugit.</p>
-                    <button class="mt-4 cursor-pointer font-semibold active:bg-main-blue text-left">Download the app ➝</button>
+                    <button class="mt-4 cursor-pointer font-semibold active:bg-main-blue text-left hover:bg-main-blue py-1.5 px-2 -mx-2 rounded-xl hover:scale-110 transition-all active:scale-90">Download the app ➝</button>
                 </div>
                 <img class="mt-16 md:mt-0 mx-auto w-[80vw] md:w-[40vw] 2xl:w-[20vw]" src="./img/phone.svg" alt="">
             </div>
@@ -117,7 +124,7 @@
                 <div class="bg-orange text-white px-3 py-6 lg:px-8 lg:py-10 pb-8 rounded-xl drop-shadow-xl md:h-[100%]">
                     <h2 class="text-2xl font-semibold mr-16">Transfer money with your friends</h2>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis possimus consequatur vel error et fugit.</p>
-                    <button class="mt-4 cursor-pointer font-semibold active:bg-main-blue text-left">Explore more ➝ <span class="float-right pl-8 w-[55vw] md:w-[30vw] lg:w-[25vw] 2xl:w-[20vw] flex flex-col md:mt-20"><img src="./img/money-transfer.svg"></span></button>
+                    <button class="mt-4 cursor-pointer font-semibold active:bg-main-blue text-left ">Explore more ➝ <span class="float-right pl-8 w-[55vw] md:w-[30vw] lg:w-[25vw] 2xl:w-[20vw] flex flex-col md:mt-20"><img src="./img/money-transfer.svg"></span></button>
                 </div>
             </div>
 
@@ -125,7 +132,7 @@
                 <div class="bg-teritaer text-white px-3 py-6 lg:px-8 lg:py-10 pb-8 rounded-xl drop-shadow-xl xl:h-[100%]">
                     <h2 class="text-2xl font-semibold mr-12">Mobile payment with Apple Pay & Samsung Pay</h2>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis possimus consequatur vel error et fugit.</p>
-                    <button class="mt-4 cursor-pointer font-semibold active:bg-main-blue">Explore more ➝</button>
+                    <button class="mt-4 cursor-pointer font-semibold active:bg-main-blue hover:bg-main-blue py-1.5 px-2 -mx-2 rounded-xl hover:scale-110 transition-all active:scale-90">Explore more ➝</button>
                     <img class="mt-12 mx-auto w-[60vw]" src="./img/payment.svg">
                 </div>
             </div>
@@ -133,11 +140,11 @@
 
         <div class="mx-auto px-10 md:px-48 lg:px-[35vw] mt-28 lg:mt-48 mb-20 lg:mb-36 text-center">
             <h2 class="text-gray-900 text-3xl lg:text-4xl font-semibold">Join now 50+ million users and invest your money smart </h2>
-            <button class="mt-6 py-4 px-6 bg-main-blue text-xl lg:text-2xl font-semibold text-white rounded-2xl drop-shadow-xl">Invest now!</button>
+            <button class="mt-6 py-4 px-6 bg-main-blue text-xl lg:text-2xl font-semibold text-white rounded-2xl drop-shadow-xl hover:scale-110 transition-all active:scale-90">Invest now!</button>
         </div>
     </div>
 
-    <footer class="bg-gray-800 py-8 px-4">
+    <footer class="bg-gray-800 py-8 px-4 md:px-10 lg:px-[15vw] 2xl:px-[25vw]">
         <div class="flex flex-col">
             <div>
                 <h2 class="text-2xl font-semibold text-white cursor-pointer">FundFlow</h2>
